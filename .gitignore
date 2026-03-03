@@ -21,3 +21,12 @@
 
 # Environment
 .env
+
+# VS Code / Hardhat plugin temp files
+.vscode_hardhat_config_*.ts
+
+# Deployment state (local)
+ignition/deployments/
+
+# Duplicate lock file (using pnpm)
+package-lock.json
